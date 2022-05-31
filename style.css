@@ -1,0 +1,25 @@
+#logo {
+    float: left;
+}
+
+.grid-menu {
+    float: right;
+}
+
+.grid-menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
