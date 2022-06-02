@@ -1,16 +1,20 @@
-#logo {
-    float: left;
-}
-
-.grid-menu {
-    float: right;
-}
-
-.grid-menu {
+.grid-header {
     display: grid;
-    grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
+    float: ri ght;
+    column-gap: 20%;
+}
+
+.grid-header-item {  
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 9;
 }
 
 .grid-btn {
@@ -21,5 +25,35 @@
     margin: 5px;
     text-align: center;
     grid-row-start: 1;
-    grid-row-end: 8;
+    grid-row-end: 9;
+}
+
+. grid-header {
+    display: grid;
+    background-color: #2196F3;
+    padding: 10px;
+    float: ri ght;
+    column-gap: 20%;
+}
+
+. grid-header-item {  
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+. grid-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 9;
 }
