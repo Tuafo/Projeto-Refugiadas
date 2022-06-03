@@ -10,11 +10,12 @@
 </head>
 <body>
     <header id="header">
-        <a href="/">Logo</a>
+        <a id="logo" href="">Logo</a>
         <nav id="nav">
-
-            <button id="btn-mobile">Menu</button>
-            <ul id="menu">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
                 <li><a href="/">Início</a></li>
                 <li><a href="/">Procurar casa</a></li>
                 <li><a href="/">Registrar casa</a></li>
