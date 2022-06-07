@@ -28,7 +28,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #AC80A0;
 }
 
 #menu {
@@ -111,4 +111,18 @@ a:hover {
         transform: rotate(-135deg);
         top: -7px;
     }
+}
+
+/* configuração das imagens responsivas do HOME */
+
+#flex-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+img {
+    max-width: 100%;
 }
